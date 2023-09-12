@@ -1,0 +1,36 @@
+name: currency_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^5.1.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons8-menu-94.png
+    - assets/images/icons8-money-bag-bitcoin-94.png
+    - assets\images\icons8-question-94.png
+
+  fonts:
+    - family: estedad
+      fonts:
+        - asset: assets\fonts\Estedad-Bold.ttf
+          weight: 700
+        - asset: assets\fonts\Estedad-Regular.ttf
+          weight: 300
